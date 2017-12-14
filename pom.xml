@@ -192,6 +192,9 @@
                 </executions>
             </plugin>
             
+            <!-- 새로운 로직-->
+            
+            
             <!-- 
             <plugin>
                 <groupId>com.google.code.maven-replacer-plugin</groupId>
@@ -259,11 +262,9 @@
                     </execution>
                 </executions>
             </plugin>
+            <!-- 
+  1231231231231          
             <plugin>
-                <!--
-                A plugin which uses the JUnit framework in order to start
-                our junit suite "AllTests" after the sources are compiled.
-                -->
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefireVersion}</version>
                 <configuration>
@@ -279,6 +280,9 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            
+            -->
+            
             <plugin>
                 <!--
                 This plugin can package the main artifact's sources (src/main/java)
