@@ -270,7 +270,7 @@
                     <useSystemClassLoader>true</useSystemClassLoader>
                     <enableAssertions>false</enableAssertions>
                     
-                    <testNGArtifactName>true</testNGArtifactName>
+					<testFailureIgnore>true</testFailureIgnore>                    
                     
                 </configuration>
                 <dependencies>
